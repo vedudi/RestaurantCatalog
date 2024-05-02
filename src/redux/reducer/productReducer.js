@@ -1,22 +1,28 @@
-const initialState={
-    isLoading:false,
-    error:null,
-    products:[]
-}
-const productReducer=(state=initialState, action)=>{
-    switch (action.type) {
-        case 'X act':
-            
-            return state;
-        case 'Y act':
-            
-            return state;
-        case 'Z act':
-            
-            return state;
-    
-        default:
-            return state;
-    }
-}
+import ActionTypes from "./actionTypes";
+
+const initialState = {
+  isLoading: false,
+  error: null,
+  restaurant: null,
+  products: [],
+};
+const productReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case ActionTypes.PROD_LOADING:
+      return { ...state, isLoading: true };
+    case ActionTypes.PROD_ERROR:
+      return { ...state, isLoading: false, error: action.payload };
+    case ActionTypes.PROD_SUCCESS:
+      return {
+        ...state,
+        isLoading: false,
+        error: null,
+        restaurant: action.payload[0].data,
+        products: action.payload[1].data,
+      };
+
+    default:
+      return state;
+  }
+};
 export default productReducer;

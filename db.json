@@ -297,22 +297,49 @@
   ],
   "cart": [
     {
-      "id": "f7815011-3087-42e3-b2cc-24547c52aac5",
-      "productId": "1",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 4
+      "id": "b9926607-f09f-4990-b5db-12be751dea63",
+      "productId": "24",
+      "title": "Çikolatalı Brownie",
+      "price": 8.99,
+      "photo": "https://picsum.photos/213",
+      "name": "Keyifli Mekan",
+      "amount": 9
     },
     {
-      "id": "8832d947-e8c8-446a-ad0d-ade055164e49",
-      "productId": "1",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/301",
-      "restaurantName": "Lezzetin Tadı",
+      "id": "99ce4d35-357c-4a39-98b1-8ec750864f9a",
+      "productId": "10",
+      "title": "Köri Tavuk",
+      "price": 16.99,
+      "photo": "https://picsum.photos/209",
+      "name": "Tadı Damağınızda",
+      "amount": 1
+    },
+    {
+      "id": "a8bd2a98-502f-4be5-97d8-9d12636478ea",
+      "productId": "6",
+      "title": "Güveçte Et Sote",
+      "price": 22.99,
+      "photo": "https://picsum.photos/205",
+      "name": "Tadı Damağınızda",
+      "amount": 6
+    },
+    {
+      "id": "75259d1e-425b-4cfb-86f1-f5053a075ddf",
+      "productId": "35",
+      "title": "Fırın Makarna",
+      "price": 10.99,
+      "photo": "https://picsum.photos/214",
+      "name": "Tadı Damağınızda",
       "amount": 2
+    },
+    {
+      "id": "74f541ce-6fcf-4b95-ae2f-6f9966b925c5",
+      "productId": "29",
+      "title": "İtalyan Salata",
+      "price": 8.49,
+      "photo": "https://picsum.photos/210",
+      "name": "Tadı Damağınızda",
+      "amount": 4
     }
   ]
 }
